@@ -1,13 +1,24 @@
 @use 'variables' as *;
 @use 'mixins' as *;
 
+
+@keyframes show-header-box{
+    from{
+        opacity: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+}
+
 header {
     height: 100vh;
     background: url('../assets/img/bg-header.webp') center/cover fixed;
     color: #fff;
 
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
 
     .header-box {
@@ -15,6 +26,7 @@ header {
         padding: 30px;        
         display: flex;
         flex-direction: column;
+        animation:show-header-box 5s ;
     }
 
     h1 {
