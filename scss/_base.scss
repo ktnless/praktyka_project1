@@ -1,11 +1,16 @@
-html{
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
-body{
-    font-family: "Roboto",sans-serif;
+body {
+    font-family: "Roboto", sans-serif;
 }
-a{
-   text-decoration: none;
-   color: inherit; 
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
