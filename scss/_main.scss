@@ -2,11 +2,17 @@ section{
     min-height: 100vh;
     padding-top: 80px;
 
+    &:nth-of-type(even) {
+        background-color: whitesmoke;
+        
+    }
+
     h2{
         text-align: center;
         font-size: 2.8rem;
         margin-bottom: 30px;
     }
+
     p {
         margin-bottom: 20px;
         line-height: 1.4rem;
